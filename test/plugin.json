@@ -1,0 +1,9 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "author": "MEG",
+  "email": "kyletpugh@users.noreply.github.com",
+  "brief": "Test plugin",
+  "description": "Test plugin",
+  "dependencies": []
+}
