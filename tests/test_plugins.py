@@ -1,11 +1,6 @@
 """Test plugins"""
 
-import os
-import sys
-
-if 'MEG_PLUGINS_PATH' not in os.environ:
-    os.environ['MEG_PLUGINS_PATH'] = os.path.dirname(sys.path[0])
-
+# Import the runtime after setting the plugin path
 from meg_runtime import PluginManager
 
 
