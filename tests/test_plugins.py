@@ -8,6 +8,7 @@ if 'MEG_PLUGINS_PATH' not in os.environ:
 
 from meg_runtime import PluginManager
 
+
 # Test plugins
 def test_plugins():
     """Test plugins"""
