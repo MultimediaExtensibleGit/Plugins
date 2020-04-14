@@ -1,6 +1,6 @@
 """Test plugin"""
 
-from meg_runtime import Config, Logger, Plugin, PluginManager
+from meg_runtime import Logger, PluginManager
 
 # TODO: Create plugin decorator functions for testing
 plugin = PluginManager.get_current()
